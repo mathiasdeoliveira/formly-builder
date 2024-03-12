@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-dnd-forms:build:production"
+              "buildTarget": "ng-dnd-forms:build:production"
             },
             "development": {
-              "browserTarget": "ng-dnd-forms:build:development"
+              "buildTarget": "ng-dnd-forms:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-dnd-forms:build"
+            "buildTarget": "ng-dnd-forms:build"
           }
         },
         "test": {
