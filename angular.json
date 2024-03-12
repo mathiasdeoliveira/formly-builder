@@ -107,7 +107,6 @@
       }
     }
   },
-  "defaultProject": "ng-dnd-forms",
   "cli": {
     "analytics": false
   }
